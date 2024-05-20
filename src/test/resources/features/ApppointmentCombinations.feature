@@ -2,7 +2,7 @@ Feature: Appointment Combinations
 
 
 @Appointment1
-  Scenario Outline: Verify different types of appointments are possible
+  Scenario Outline: NewNew
     Given user is on login page
     And User logged with username and password
     And make appointment "Tokyo CURA Healthcare Center"
@@ -15,7 +15,7 @@ Examples:
 
 
   @Appointment2
-  Scenario Outline: Verify different types are possible
+  Scenario Outline: NewNewNew
     Given user is on login page
     And User logged with username and password from db
     And make appointment "Tokyo CURA Healthcare Center"
